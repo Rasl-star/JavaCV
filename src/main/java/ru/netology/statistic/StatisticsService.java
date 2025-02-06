@@ -37,6 +37,5 @@ public class StatisticsService {
 
         }
         return current / incomes.length;
-
     }
 }
