@@ -21,7 +21,7 @@ public class StatisticsService {
         return currentMin;
     }
 
-    public long Findamount(long[] incomes) {
+    public long findAmount(long[] incomes) {
         long amount = 0;
         for (long income : incomes) {
             amount += income;
@@ -30,7 +30,7 @@ public class StatisticsService {
         return amount;
     }
 
-    public long averageamount(long[] incomes) {
+    public long averageAmount(long[] incomes) {
         long current = 0;
         for (long income : incomes) {
             current += income;
